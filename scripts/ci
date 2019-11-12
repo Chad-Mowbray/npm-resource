@@ -3,6 +3,9 @@
 
 set -e
 
+echo &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& in ci script &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
 export GOPATH=$PWD/gopath
 export PATH=$GOPATH/bin:$PATH
 
