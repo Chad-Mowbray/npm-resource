@@ -3,11 +3,14 @@
 
 set -e
 
-echo  ci script 
+echo  ci script start
 
 
 export GOPATH=$PWD/gopath
 export PATH=$GOPATH/bin:$PATH
+
+echo  ci script just after exports
+
 
 BUILD_DIR=$PWD/built-resource
 
