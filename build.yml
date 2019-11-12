@@ -8,7 +8,7 @@ image_resource:
 inputs:
 - name: verdaccio
 - name: npm-resource
-  path: gopath/src/github.com/Chad-Mowbray/npm-resource
+  # path: gopath/src/github.com/Chad-Mowbray/npm-resource
 - name: sample-node
 
 outputs:
