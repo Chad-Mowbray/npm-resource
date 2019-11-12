@@ -8,11 +8,11 @@ image_resource:
 inputs:
 - name: verdaccio
 - name: npm-resource
-  path: gopath/src/github.com/idahobean/npm-resource
+  path: gopath/src/github.com/Chad-Mowbray/npm-resource
 - name: sample-node
 
 outputs:
 - name: built-resource
 
 run:
-  path: gopath/src/github.com/idahobean/npm-resource/scripts/ci
+  path: gopath/src/github.com/Chad-Mowbray/npm-resource/scripts/ci
