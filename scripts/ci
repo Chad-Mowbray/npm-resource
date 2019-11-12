@@ -3,7 +3,7 @@
 
 set -e
 
-echo &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& in ci script &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+echo  ci script 
 
 
 # export GOPATH=$PWD/gopath
