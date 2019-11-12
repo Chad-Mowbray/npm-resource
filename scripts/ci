@@ -15,10 +15,14 @@ BUILD_DIR=$PWD/built-resource
     source /docker-lib.sh
     start_docker
 
+    echo &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Docker started &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
     docker load -i verdaccio/image
     docker tag "$(cat verdaccio/image-id)" "$(cat verdaccio/repository):$(cat verdaccio/tag)"
 
     docker images
+
+    echo &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& after docker images &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
     cp -r $PWD/sample-node $GOPATH/src/github.com/idahobean/npm-resource
     cd $GOPATH/src/github.com/idahobean/npm-resource
