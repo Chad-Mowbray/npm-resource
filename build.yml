@@ -16,6 +16,6 @@ outputs:
 - name: built-resource
 
 run:
-  # path: gopath/src/github.com/Chad-Mowbray/npm-resource/scripts/ci
-  path: echo
-  args: [hello]
+  path: gopath/src/github.com/Chad-Mowbray/npm-resource/scripts/ci
+  # path: echo
+  # args: [hello]
