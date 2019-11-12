@@ -9,7 +9,7 @@ inputs:
 - name: verdaccio
 - name: git-resource
 - name: npm-resource
-  # path: gopath/src/github.com/Chad-Mowbray/npm-resource
+  path: gopath/src/github.com/Chad-Mowbray/npm-resource
 - name: sample-node
 
 outputs:
